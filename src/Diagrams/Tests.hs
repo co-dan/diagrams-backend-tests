@@ -81,7 +81,7 @@ examples =
         , Test "Pre-defined-shapes" $
                 square 1 ||| rect 0.3 0.5 ||| eqTriangle 1 ||| roundedRect 0.7 0.4 0.1
         , Test "circle-hrule-circle" $
-                circle 1 ||| hrule 2 ||| circle 1
+                circle 1 ||| hrule 2 ||| circle 1 
         , Test "poly-example" $
                 poly_example
         , Test "star-polygon" $
